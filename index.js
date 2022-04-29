@@ -23,6 +23,7 @@ const restaurant = {
 
 const restaurant2 = {
     name: 'Bolay',
+    address: '7060 W Palmetto Park Rd',
     cuisine: 'American',
     rating: 4.6,
 }
@@ -36,3 +37,4 @@ async function addRestaurant() {
  }
 }
 addRestaurant(restaurant2)
+
