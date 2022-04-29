@@ -1,6 +1,6 @@
 const admin = require("firebase-admin"); //imports firebase library of tools
 
-const serviceAccount = require('./credentials.json');//import our creds 2 connect 2 firebase
+const serviceAccount = require('./credentials');//import our creds 2 connect 2 firebase
 
 admin.initializeApp({ //connects to our firebase project
   credential: admin.credential.cert(serviceAccount)// creating a certificate from our creds
